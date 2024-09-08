@@ -18,8 +18,8 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 logging.basicConfig(level=logging.INFO)
 # LINE bot 設置
-LINE_CHANNEL_ACCESS_TOKEN = 'OG/Z9nCIEAvPSMNHsdfcOXS3ulWyNQihSszijTJdXEfa7srZYeuTKpUkarrwf6TXcEOwjp/6EH+0l/aceCyrQWU9KUnRlFvdl47EFT8P+0GiMvKwa03TJbAy9c7sUk/Z8l50wjUNz5n/LOXtDAcK/QdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = 'f64b31faefee2d64598ff9c317f8ce43'
+LINE_CHANNEL_ACCESS_TOKEN = 'xzMEW9y3KEHNpYiTo+dK7bZSK9wKcueGAw4FoiRaL7oBq6T+qvgzlB3TG+bCyoPlAexX2Kcn65FiDr2ourc6Yk1ZTfnaS8M3X4BFCM5+7kS1kVrSAqoE3pz0oDq7RTpD90Bp2PBNC/9z4x9sREXK/wdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_SECRET = '7b1ccbcfefcf6635776f36c087dad100'
 SERVER_URL = 'https://linebot-smq6.onrender.com'
 STT_API_URL = 'http://180.218.16.187:30303/recognition_long_audio'
 TTS_API_URL = 'http://180.218.16.187:30303/getTTSfromText'
